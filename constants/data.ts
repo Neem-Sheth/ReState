@@ -58,12 +58,12 @@ export const featuredCards = [
 export const categories = [
   { title: "All", category: "All" },
   { title: "Houses", category: "House" },
+  { title: "Townhomes", category: "Townhomes" },
   { title: "Condos", category: "Condos" },
   { title: "Duplexes", category: "Duplexes" },
   { title: "Studios", category: "Studios" },
   { title: "Villas", category: "Villa" },
   { title: "Apartments", category: "Apartments" },
-  { title: "Townhomes", category: "Townhomes" },
   { title: "Others", category: "Others" },
 ];
 
@@ -108,12 +108,8 @@ export const facilities = [
     icon: icons.laundry,
   },
   {
-    title: "Car Parking",
+    title: "Parking",
     icon: icons.carPark,
-  },
-  {
-    title: "Sports Center",
-    icon: icons.run,
   },
   {
     title: "Cutlery",
@@ -124,7 +120,7 @@ export const facilities = [
     icon: icons.dumbell,
   },
   {
-    title: "Swimming pool",
+    title: "Pool",
     icon: icons.swim,
   },
   {
@@ -132,7 +128,7 @@ export const facilities = [
     icon: icons.wifi,
   },
   {
-    title: "Pet Center",
+    title: "Pet-friendly",
     icon: icons.dog,
   },
 ];
